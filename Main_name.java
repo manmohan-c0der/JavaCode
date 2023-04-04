@@ -2,6 +2,9 @@ class Employee{
     int id;
     int salary;
     String name;
+    public void setid(int i){
+        id=i;
+    }
     public void getsal(int val){
         salary=val;
     }
@@ -26,5 +29,8 @@ public class Main_name{
         john.getsal(3400);
         ms.printdetail();
         john.printdetail();
+        Employee sm=new Employee();
+        sm.setid(34);
+        cout<<sm.id<<endl;
     }
 }
